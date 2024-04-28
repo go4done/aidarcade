@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AidArcade</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+    <body>
+        <section class="helper">
+            <header class="helper-header">
+                <a href="AidArcade.html"  alt=""> 
+                    <img src="Logo2.png" class="helper-img" width="120px" height="120px" alt=""> 
+                </a>
+                <h1 class="helper-title" id = "helper-title" >Help and get help together with            
+                    AidArcade!</h1>
+            </header>
+            <div class="helper-main">
+                <div class="language2-selector">
+                    <select id="language2-select" onchange="changeLangu()">
+                        <option value="en">English</option>
+                        <option value="uk">Українська</option>
+                    </select>
+                </div>
+                <div class="helper-panel">
+                    <div class="helper-filter">
+                        <div class="filter-options">
+                            <label class="filter-label" id="filter-label"for="filter-select">Choose type of Aid:</label>
+                            <select id="filter-select" class="filter-select">
+                                <option id="filter-opt1"value="all">All types</option>
+                                <option id="filter-opt2"value="material">Material</option>
+                                <option id="filter-opt3"value="pscycho">Psychological</option>
+                                <option id="filter-opt4"value="spirit">Spiritual</option>
+                            </select>
+                        </div>
+                    </div>
+                    <input type="text" name="" id="helper-search" placeholder="Search...">
+                    <input type="button" value="Find" id="helper-search-btn">
+                    <a href="#" class="helper-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"id="helper-person" fill="#000" class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="helper-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000" id="helper-plus"class="bi bi-plus-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                    </svg>  
+                    </a>  
+                </div>
+                <div class="helper-list">
+                    <h1 class="helper-list-title" id="helper-list-title">
+                        List of advertisements:
+                    </h1>
+                    <div class="helper-list-item">
+                        <p class="helper-list-text" id = "helper-list-text1">Сhildren's clothes</p>
+                        <p class="helper-list-category">#Material</p>
+                        <div class="helper-call-info">
+                            <p class="helper-call" id="helper-call1">Call at:</p> 
+                            <p class="helper-call-name">Ivan,</p>
+                            <a href="" class="helper-call-link">+380974383231</a>
+                        </div>
+                    
+                    </div>
+                    <div class="helper-list-item">
+                        <p class="helper-list-text" id = "helper-list-text2">Medicines for coughs, colds and flu</p>
+                        <p class="helper-list-category">#Material</p>
+                        <div class="helper-call-info">
+                            <p class="helper-call" id="helper-call2">Call at:</p> 
+                            <p class="helper-call-name">Ruslan,</p>
+                            <a href="" class="helper-call-link">+380968434567</a>
+                        </div>
+                    </div>
+                    <div class="helper-list-item">
+                        <p class="helper-list-text" id = "helper-list-text3">Psychologist services</p>
+                        <p class="helper-list-category">#Psychological</p>
+                        <div class="helper-call-info">
+                            <p class="helper-call" id="helper-call3">Call at:</p>
+                            <p class="helper-call-name">Nadia,</p>
+                            <a href="" class="helper-call-link">+380954434664</a>
+                        </div>
+                    </div>
+                    <div class="helper-list-item" >
+                        <p class="helper-list-text" id = "helper-list-text4">Refugee assistance service</p>
+                        <p class="helper-list-category">#Spiritual</p>
+                        <div class="helper-call-info">
+                            <p class="helper-call" id="helper-call4">Call at:</p> 
+                            <p class="helper-call-name">Jane,</p>
+                            <a href="" class="helper-call-link">+380984138965</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="helper-slidebar">
+                    
+                        <button class="prev-btn" onclick="prevTab()">‹</button>
+                        <div class="tabs">
+                            <div class="tab">Tab 1</div>
+                            <div class="tab">Tab 2</div>
+                            <div class="tab">Tab 3</div>
+                        </div>
+                        <button class="next-btn" onclick="nextTab()">›</button>
+                    
+                </div>
+            </div>   
+        </section>
+        
+        <footer class="helper-footer">
+            <div class="helper-copyright">
+                @ 2024 AidArcade Free Volunteer service by&nbsp; Go&Done
+            </div> 
+        </footer>
+    </body>
+</html>

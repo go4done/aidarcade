@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AidArcade</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <header class="header">
+            <nav id="nav" class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <a href="AidArcade.html"  alt=""> 
+                        <img src="Logo2.png" class="navbar-brand" width="120px" height="120px" alt=""> 
+                    </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" id = "nav-link" aria-current="page" target ="_blank" href="#about">
+                               <b>About Us</b> 
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"target ="_blank" id = "nav-link2" href="#footer">
+                                <b>Support</b>
+                            </a>
+                        </li>      
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id = "nav-link3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <b> Contact Us</b>
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">GitHub</a></li>
+                            <li><a class="dropdown-item" href="#">Instagram</a></li>
+                            
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="language-selector">
+                        <select id="language-select" onchange="changeLanguage()">
+                            <option value="en">English</option>
+                            <option value="uk">Українська</option>
+                        </select>
+                    </div>
+                    <div class="line"> </div>
+                   <div class="nav-acc">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"id="person" fill="#000" class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                        </svg>
+                    </a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle"  id="person-text" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                               <b>Account</b> 
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><input type="button" class="dropdown-item" value="Sign up" id="sign-up"></li>
+                                <li><input type="button" class="dropdown-item" value="Log in" id="log-in"></li>
+                            </ul>                            
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                </div>
+            </nav>
+        </header>
+        <section class="first">
+                    <p class="first-text">Assignnedd</p>
+                    <input type="button" class="first-btn1" id="first-btn" value="Get Aid" onclick="togglePopup()">
+                    <input type="button" class="first-btn2" id="first-btn" value="Help Others" onclick="togglePopup()">
+        </section>
+    <section class="about" id="about">
+            <h1 class="about-title" id="about-title">About Us</h1>
+            <div class="about-items">
+                <div class="about-item">
+                    <img src="Dovbniak.JPG" width="240px" height="270px"alt="" class="about-img">
+                    <h2 class="about-name" id = "about-name1">
+                        Vladyslav Dovbniak
+                    </h2>
+                    <p class="about-place">
+                        Back-End Developer <br>
+                        (C# & PostgreSQL);
+                    </p>
+                </div>
+                <div class="about-item">
+                    <img src="Sikorskyi.jpg" alt="" width="240px" height="270px"class="about-img">
+                    <h2 class="about-name" id = "about-name2">
+                        Roman Sikorskyi 
+                    </h2>
+                    <p class="about-place">
+                        Front-End Developer<br>
+                        (HTML,CSS,JS);
+                    </p>
+                </div>
+                <div class="about-item">
+                    <img src="Boiko.jpg" width="240px" height="270px" alt="" class="about-img">
+                    <h2 class="about-name" id = "about-name3">
+                    Yurii Boiko
+                    </h2>
+                    <p class="about-place">
+                        Back-End Developer <br>
+                        (C# & PostgreSQL);
+                    </p>
+                </div>
+                <div class="about-item">
+                    <img src="Martyniuk.jpg"width="250px" height="270px" alt="" class="about-img">
+                    <h2 class="about-name"id = "about-name4">
+                    Dmytro Martyniuk
+                    </h2>
+                    <p class="about-place">
+                        UI/UX Designer <br>
+                        (HTML,CSS & Photoshop);
+                    </p>
+                </div>
+                <div class="about-item">
+                    <img src="Mankovskyi.jpg" alt=""width="240px" height="270px" class="about-img">
+                    <h2 class="about-name" id = "about-name5">
+                    Bohdan Mankovskyi
+                    </h2>
+                    <p class="about-place">
+                        Back-End Developer <br>
+                        (PostgreSQL);
+                    </p>
+                </div>
+            </div>
+            <h1 class="about-mission" id="about-mission"> Our mission: </h1>
+            <p class="about-text" id = "about-text">
+                We are the <b> Go&Done </b>development team, and we are working on a website that allows people to get urgent help. The help is presented <br>
+                in the form of free food, medicine, clothing, housing, or even psychological support. Our site can be used by people who are unable to <br>
+                receive material and non-material assistance for a fee, all services on our site are free and can be accessed by anyone who needs it, <br>
+                the reason for creating the project is the situation in our country, Ukraine has been suffering from the aggression of the Russian Federation <br>
+                for three years, many of our citizens are forced to leave their homes and live hundreds of kilometers away from their hometowns, which is why we <br>
+                launched the <b>AidArcade</b> project to make life easier for people who survived the invasion, saw bloody battles, shelling, some of them lost their <br>
+                homes, some lost relatives, our project will help our country unite, we really need it now because we are one country and we need to help each other in <br>
+                this difficult time. <b>Victory is ahead, Glory to Ukraine! </b>
+            </p>
+    </section>
+    <footer class="footer">  
+            <h1 class="footer-title" id="footer">Support</h1>							
+                <div class="footer-content">
+                    <div class="footer-content-item">
+                        <p class="footer-content-title">Our socials:</p>
+                        <a href="#"target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                            </svg>
+                        </a>
+                        <a href="#"target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" id = "footer-icon"class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                            </svg>
+                        </a>
+                        <a href="#"target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" id = "footer-icon"class="bi bi-telegram" viewBox="0 0 16 16">
+                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="footer-content-item">
+                        <form class="subscribe" action="/" method="post">
+                            <input class="subscribe-input" type="text" placeholder="write your request here..." name="name">
+                            <input class="subscribe-btn" id= "subscribe-btn" type="button" value="Send request" onclick="togglePopup()">
+                        </form>	
+                    </div>  
+                </div>
+               
+                <div class="copyright">
+                    @ 2024 AidArcade Free Volunteer service by&nbsp;<span><a class="footer-href"href="#about">Go&Done</a></span> 
+                </div>     
+        </footer>
+        <div class="popup" id="popup">
+            <div class="popup-header">
+                <h1 class="popup-title" id = "popup-title">Welcome to the AidArcade!</h1>
+            </div>
+            <div class="popup-reg">
+                <div class="reg-header">
+                    <h2 class="reg-title"id ="reg-title">Registration</h2>
+                </div>
+                <div class="reg-form">
+                    <div class="profile-selector">
+                        <select id="profile-select" onchange="changeProfile()">
+                            <option value="seek" id="seeker">Seeker</option>
+                            <option value="help"id="helper">Helper</option>
+                        </select>
+                    </div>
+                    <form action="">
+                        <input class= "reg-phone" id = "reg-phone"type="text" placeholder="Enter phone number...">
+                        <input class= "reg-mail"type="text" id = "reg-mail"placeholder="Enter login...">
+                        <input type="password" maxlength="16"class= "reg-pass" id = "reg-pass" placeholder="Enter password..."> <br>
+                        <input type="submit" id ="reg-sign" onclick="LoginPage()" class="reg-sign" value="Sign up">  <br>
+                        <input type="submit"id= "reg-log"class="reg-log" onclick="LoginPage()" id="reg-log"value="Log in as seeker">
+                    </form>
+                </div>
+                <input id = "popup-btn"class="popup-btn" onclick="togglePopup()" value ="Close attachment">
+            </div>
+            
+            <div class="popup-footer">
+                <h1 class="popup-footer-title" id = "popup-footer-title">We can help you!</h1>
+                <div class="footer-copyright" id = "footer-copyright"> 
+                    @ 2024 AidArcade Free Volunteer service by&nbsp;<span><a class="footer-href"href="#about">Go&Done</a></span> 
+                </div>     
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <header class="login-header">
+        <a href="AidArcade.html"  alt=""> 
+            <img src="Logo2.png" class="login-logo" width="120px" height="120px" alt=""> 
+        </a>
+        <h1 class="login-title"id="login-title">Welcome to the AidArcade!</h1>
+    </header>
+    <div class="login-main">
+        <div class="language1-selector">
+            <select id="language1-select" onchange="changeLang()">
+                <option value="en">English</option>
+                <option value="uk">Українська</option>
+            </select>
+        </div>
+        <div class="login-form">
+            <div class="form-header">
+                <h2 class="form-title" id="form-title">Log in</h2>
+            </div>
+            <div class="form-input">
+                <div class="profile1-selector">
+                    <select id="profile1-select" onchange="changeProf()">
+                        <option value="seek" id="seeker">Seeker</option>
+                        <option value="help"id="helper">Helper</option>
+                    </select>
+                </div>
+                <input class= "log-phone" id = "log-phone" type="text" placeholder="Enter phone number..."> <br>
+                <input class= "log-mail"type="text" id = "log-mail" placeholder="Enter login..."> <br>
+                <input type="password" maxlength="16"class= "log-pass" id = "log-pass" placeholder="Enter password..."> <br>
+                <input type="submit"id= "log-btn"class="log-btn"onclick ="WhenLog()" value="Log in as seeker">
+            
+            </div>
+
+        </div>
+        <div class="login-circle"></div>
+        <div class="login-circle1"></div>
+    </div>
+</body>
+</html>
