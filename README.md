@@ -59,7 +59,7 @@ Our platform is designed to make it as simple as possible for those in need to c
 
 # Visit Our Website
 
-For more information, to sign up, or to start using AidArcade, visit our website at [AidArcade](ec2-13-60-65-182.eu-north-1.compute.amazonaws.com).
+For more information, to sign up, or to start using AidArcade, visit our website at [AidArcade](http://ec2-13-60-65-182.eu-north-1.compute.amazonaws.com).
 
 ## Project Status
 
