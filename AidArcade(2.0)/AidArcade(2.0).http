@@ -1,0 +1,6 @@
+@AidArcade_2._0__HostAddress = http://localhost:5271
+
+GET {{AidArcade_2._0__HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

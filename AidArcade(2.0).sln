@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AidArcade(2.0)", "AidArcade(2.0)\AidArcade(2.0).csproj", "{676335FF-82B6-4BB9-B5F6-34678AC92BE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{676335FF-82B6-4BB9-B5F6-34678AC92BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{676335FF-82B6-4BB9-B5F6-34678AC92BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{676335FF-82B6-4BB9-B5F6-34678AC92BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{676335FF-82B6-4BB9-B5F6-34678AC92BE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84AC844D-1D87-4781-AB6E-9DABA66E8744}
+	EndGlobalSection
+EndGlobal

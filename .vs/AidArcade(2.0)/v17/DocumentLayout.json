@@ -1,0 +1,280 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{676335FF-82B6-4BB9-B5F6-34678AC92BE0}|AidArcade(2.0)\\AidArcade(2.0).csproj|c:\\users\\vladd\\source\\repos\\c# projects\\aidarcade(2.0)\\aidarcade(2.0)\\controllers\\helpercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{676335FF-82B6-4BB9-B5F6-34678AC92BE0}|AidArcade(2.0)\\AidArcade(2.0).csproj|solutionrelative:aidarcade(2.0)\\controllers\\helpercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676335FF-82B6-4BB9-B5F6-34678AC92BE0}|AidArcade(2.0)\\AidArcade(2.0).csproj|c:\\users\\vladd\\source\\repos\\c# projects\\aidarcade(2.0)\\aidarcade(2.0)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{676335FF-82B6-4BB9-B5F6-34678AC92BE0}|AidArcade(2.0)\\AidArcade(2.0).csproj|solutionrelative:aidarcade(2.0)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676335FF-82B6-4BB9-B5F6-34678AC92BE0}|AidArcade(2.0)\\AidArcade(2.0).csproj|c:\\users\\vladd\\source\\repos\\c# projects\\aidarcade(2.0)\\aidarcade(2.0)\\controllers\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{676335FF-82B6-4BB9-B5F6-34678AC92BE0}|AidArcade(2.0)\\AidArcade(2.0).csproj|solutionrelative:aidarcade(2.0)\\controllers\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676335FF-82B6-4BB9-B5F6-34678AC92BE0}|AidArcade(2.0)\\AidArcade(2.0).csproj|c:\\users\\vladd\\source\\repos\\c# projects\\aidarcade(2.0)\\aidarcade(2.0)\\data\\aidarcadedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{676335FF-82B6-4BB9-B5F6-34678AC92BE0}|AidArcade(2.0)\\AidArcade(2.0).csproj|solutionrelative:aidarcade(2.0)\\data\\aidarcadedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676335FF-82B6-4BB9-B5F6-34678AC92BE0}|AidArcade(2.0)\\AidArcade(2.0).csproj|c:\\users\\vladd\\source\\repos\\c# projects\\aidarcade(2.0)\\aidarcade(2.0)\\controllers\\seekercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{676335FF-82B6-4BB9-B5F6-34678AC92BE0}|AidArcade(2.0)\\AidArcade(2.0).csproj|solutionrelative:aidarcade(2.0)\\controllers\\seekercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676335FF-82B6-4BB9-B5F6-34678AC92BE0}|AidArcade(2.0)\\AidArcade(2.0).csproj|c:\\users\\vladd\\source\\repos\\c# projects\\aidarcade(2.0)\\aidarcade(2.0)\\models\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{676335FF-82B6-4BB9-B5F6-34678AC92BE0}|AidArcade(2.0)\\AidArcade(2.0).csproj|solutionrelative:aidarcade(2.0)\\models\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676335FF-82B6-4BB9-B5F6-34678AC92BE0}|AidArcade(2.0)\\AidArcade(2.0).csproj|c:\\users\\vladd\\source\\repos\\c# projects\\aidarcade(2.0)\\aidarcade(2.0)\\models\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{676335FF-82B6-4BB9-B5F6-34678AC92BE0}|AidArcade(2.0)\\AidArcade(2.0).csproj|solutionrelative:aidarcade(2.0)\\models\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676335FF-82B6-4BB9-B5F6-34678AC92BE0}|AidArcade(2.0)\\AidArcade(2.0).csproj|c:\\users\\vladd\\source\\repos\\c# projects\\aidarcade(2.0)\\aidarcade(2.0)\\models\\domains\\seeker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{676335FF-82B6-4BB9-B5F6-34678AC92BE0}|AidArcade(2.0)\\AidArcade(2.0).csproj|solutionrelative:aidarcade(2.0)\\models\\domains\\seeker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676335FF-82B6-4BB9-B5F6-34678AC92BE0}|AidArcade(2.0)\\AidArcade(2.0).csproj|c:\\users\\vladd\\source\\repos\\c# projects\\aidarcade(2.0)\\aidarcade(2.0)\\models\\domains\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{676335FF-82B6-4BB9-B5F6-34678AC92BE0}|AidArcade(2.0)\\AidArcade(2.0).csproj|solutionrelative:aidarcade(2.0)\\models\\domains\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676335FF-82B6-4BB9-B5F6-34678AC92BE0}|AidArcade(2.0)\\AidArcade(2.0).csproj|c:\\users\\vladd\\source\\repos\\c# projects\\aidarcade(2.0)\\aidarcade(2.0)\\models\\domains\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{676335FF-82B6-4BB9-B5F6-34678AC92BE0}|AidArcade(2.0)\\AidArcade(2.0).csproj|solutionrelative:aidarcade(2.0)\\models\\domains\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676335FF-82B6-4BB9-B5F6-34678AC92BE0}|AidArcade(2.0)\\AidArcade(2.0).csproj|c:\\users\\vladd\\source\\repos\\c# projects\\aidarcade(2.0)\\aidarcade(2.0)\\models\\dto\\requestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{676335FF-82B6-4BB9-B5F6-34678AC92BE0}|AidArcade(2.0)\\AidArcade(2.0).csproj|solutionrelative:aidarcade(2.0)\\models\\dto\\requestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676335FF-82B6-4BB9-B5F6-34678AC92BE0}|AidArcade(2.0)\\AidArcade(2.0).csproj|c:\\users\\vladd\\source\\repos\\c# projects\\aidarcade(2.0)\\aidarcade(2.0)\\models\\dto\\addrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{676335FF-82B6-4BB9-B5F6-34678AC92BE0}|AidArcade(2.0)\\AidArcade(2.0).csproj|solutionrelative:aidarcade(2.0)\\models\\dto\\addrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\Migrations\\20240428154009_InitialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AidArcade(2.0)\\Migrations\\20240428154009_InitialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676335FF-82B6-4BB9-B5F6-34678AC92BE0}|AidArcade(2.0)\\AidArcade(2.0).csproj|c:\\users\\vladd\\source\\repos\\c# projects\\aidarcade(2.0)\\aidarcade(2.0)\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{676335FF-82B6-4BB9-B5F6-34678AC92BE0}|AidArcade(2.0)\\AidArcade(2.0).csproj|solutionrelative:aidarcade(2.0)\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 90,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SeekerController.cs",
+              "DocumentMoniker": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\Controllers\\SeekerController.cs",
+              "RelativeDocumentMoniker": "AidArcade(2.0)\\Controllers\\SeekerController.cs",
+              "ToolTip": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\Controllers\\SeekerController.cs",
+              "RelativeToolTip": "AidArcade(2.0)\\Controllers\\SeekerController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAqwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T17:14:19.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\Models\\DTO\\LoginDto.cs",
+              "RelativeDocumentMoniker": "AidArcade(2.0)\\Models\\DTO\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\Models\\DTO\\LoginDto.cs",
+              "RelativeToolTip": "AidArcade(2.0)\\Models\\DTO\\LoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T17:11:49.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HelperController.cs",
+              "DocumentMoniker": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\Controllers\\HelperController.cs",
+              "RelativeDocumentMoniker": "AidArcade(2.0)\\Controllers\\HelperController.cs",
+              "ToolTip": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\Controllers\\HelperController.cs",
+              "RelativeToolTip": "AidArcade(2.0)\\Controllers\\HelperController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAADAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T16:59:03.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RequestController.cs",
+              "DocumentMoniker": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\Controllers\\RequestController.cs",
+              "RelativeDocumentMoniker": "AidArcade(2.0)\\Controllers\\RequestController.cs",
+              "ToolTip": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\Controllers\\RequestController.cs",
+              "RelativeToolTip": "AidArcade(2.0)\\Controllers\\RequestController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T15:44:41.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AidArcadeDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\Data\\AidArcadeDbContext.cs",
+              "RelativeDocumentMoniker": "AidArcade(2.0)\\Data\\AidArcadeDbContext.cs",
+              "ToolTip": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\Data\\AidArcadeDbContext.cs",
+              "RelativeToolTip": "AidArcade(2.0)\\Data\\AidArcadeDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T15:25:39.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\Program.cs",
+              "RelativeDocumentMoniker": "AidArcade(2.0)\\Program.cs",
+              "ToolTip": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\Program.cs",
+              "RelativeToolTip": "AidArcade(2.0)\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T15:35:34.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Seeker.cs",
+              "DocumentMoniker": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\Models\\Domains\\Seeker.cs",
+              "RelativeDocumentMoniker": "AidArcade(2.0)\\Models\\Domains\\Seeker.cs",
+              "ToolTip": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\Models\\Domains\\Seeker.cs",
+              "RelativeToolTip": "AidArcade(2.0)\\Models\\Domains\\Seeker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T15:16:38.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\Models\\Domains\\Helper.cs",
+              "RelativeDocumentMoniker": "AidArcade(2.0)\\Models\\Domains\\Helper.cs",
+              "ToolTip": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\Models\\Domains\\Helper.cs",
+              "RelativeToolTip": "AidArcade(2.0)\\Models\\Domains\\Helper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T15:13:52.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Request.cs",
+              "DocumentMoniker": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\Models\\Domains\\Request.cs",
+              "RelativeDocumentMoniker": "AidArcade(2.0)\\Models\\Domains\\Request.cs",
+              "ToolTip": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\Models\\Domains\\Request.cs",
+              "RelativeToolTip": "AidArcade(2.0)\\Models\\Domains\\Request.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T15:17:17.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\Models\\DTO\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "AidArcade(2.0)\\Models\\DTO\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\Models\\DTO\\RegisterDto.cs",
+              "RelativeToolTip": "AidArcade(2.0)\\Models\\DTO\\RegisterDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T17:05:00.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\Models\\DTO\\RequestDto.cs",
+              "RelativeDocumentMoniker": "AidArcade(2.0)\\Models\\DTO\\RequestDto.cs",
+              "ToolTip": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\Models\\DTO\\RequestDto.cs",
+              "RelativeToolTip": "AidArcade(2.0)\\Models\\DTO\\RequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T16:36:40.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20240428154009_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\Migrations\\20240428154009_InitialMigration.cs",
+              "RelativeDocumentMoniker": "AidArcade(2.0)\\Migrations\\20240428154009_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\Migrations\\20240428154009_InitialMigration.cs",
+              "RelativeToolTip": "AidArcade(2.0)\\Migrations\\20240428154009_InitialMigration.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T15:40:10.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\Models\\DTO\\AddRequestDto.cs",
+              "RelativeDocumentMoniker": "AidArcade(2.0)\\Models\\DTO\\AddRequestDto.cs",
+              "ToolTip": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\Models\\DTO\\AddRequestDto.cs",
+              "RelativeToolTip": "AidArcade(2.0)\\Models\\DTO\\AddRequestDto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T16:05:40.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\appsettings.json",
+              "RelativeDocumentMoniker": "AidArcade(2.0)\\appsettings.json",
+              "ToolTip": "C:\\Users\\vladd\\source\\repos\\C# Projects\\AidArcade(2.0)\\AidArcade(2.0)\\appsettings.json",
+              "RelativeToolTip": "AidArcade(2.0)\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-28T15:29:18.76Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 90,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
